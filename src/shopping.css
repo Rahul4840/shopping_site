@@ -1,0 +1,449 @@
+header{
+    display:flex;
+    font-family: Arial;
+    justify-content: space-between;
+    font-size: 21px;
+    padding: 15px;
+    background: black;
+    color: white;
+    margin-top: -7px;
+}
+.brand-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.brand-title:hover{
+    font-size: 32px;
+    font-weight: bold;
+    transition: 200ms;
+}
+header span{
+    margin-right: 25px;
+    font-size: 18px;
+}
+header span:hover{
+    margin-right: 25px;
+    font-size: 20px;
+    text-decoration: underline;
+    transition: 200ms;
+}
+article{
+    background-color:rgb(95, 87, 87);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1px;
+    border-radius: 10px;
+}
+.bi-lightning-fill{
+    color: goldenrod;
+}
+main{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 450px;
+    margin: 5px 0px 5px 0px;
+}
+.women{
+    background-image: url("../../public/images/women-fashion.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+.men{
+    background-image: url("../../public/images/men-fashion.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+.kids{
+    background-image: url("../../public/images/kids-fashion.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+.card-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 100px;
+}
+.shop-button{
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+.doc-abstract{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.doc-abstract div span{
+    margin-bottom: 50px;
+    font-family: Arial;
+}
+.bi-truck,.bi-arrow-counterclockwise,.bi-bag, .bi-tag{
+    color:red;
+}
+.doc-introduction{
+    height: 200px;
+    text-align: center;
+}
+.doc-introduction span{
+    display: block;
+    margin-bottom: 20px;
+}
+.doc-title{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+}
+.doc-subtitle{
+    font-family: Arial;
+    color: gray;
+    font-size: 15px;
+}
+.doc-text{
+    font-family: Arial;
+    font-size: 15px;
+    color: gray;
+}
+footer{
+    background-color: black;
+    color:white;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.footer-title{
+    text-align: center;
+    font-size: 25px;
+}
+.subscribe-container{
+    text-align: center;
+    margin: 25px;
+}
+.email{
+    font-size: 15px;
+    width: 300px;
+    padding: 15px;
+    text-align: left;
+    margin-right: 10px;
+    background-color: rgb(207, 196, 196);
+    color: white;
+    border-radius: 15px 0px 0px 15px;
+}
+.email:hover {
+    background-color: aliceblue;
+    color: black;
+    transition: 400ms;
+}
+.subscribe{
+    font-size: 15px;
+    width: 120px;
+    padding: 15px;
+    text-align: center;
+    margin-left: -13px;
+    background-color: rgb(207, 196, 196);
+    color: rgb(139, 132, 132);
+    border-radius: 0px 15px 15px 0px;
+}
+.subscribe:hover {
+    background-color: aliceblue;
+    color: black;
+    transition: 400ms;
+}
+.services-container{ 
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+}
+.service-title{
+    font-size: 14px;
+    font-weight: bold;
+    display: block; 
+    margin-bottom: 25px;
+}
+.service-title~span{
+    display: block;
+    margin-bottom: 5px;
+    color:gray;
+}
+.footer-brand-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+aside span{
+    font-size: 20px;
+    margin-right:5px;
+    color: gray;
+}
+.img-container {
+    margin: 20px 100px 20px 100px;
+    padding: 20px;
+}
+.img-1{
+    width: 380px;
+    height: 420px;
+    background-image: url("../../public/images/product-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img-2{
+    width: 850px;
+    height: 420px;
+    background-image: url("../../public/images/product-2.jpg");
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-top: -420px;
+}
+.img-3{
+    width: 750px;
+    height: 420px;
+    background-image: url("../../public/images/product-3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img-4{
+    width: 480px;
+    height: 420px;
+    background-image: url("../../public/images/product-4.jpg");
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-top: -420px;
+}
+.img-1 h2, .img-2 h2, .img-3 h2, .img-4 h2 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+.img-1 h3, .img-2 h3 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.img-3 h3, .img-4 h3 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+}
+.img-1:hover, .img-2:hover, .img-3:hover, .img-4:hover {
+    text-align: center;
+    font-family: Arial;
+    color: gray;
+    transition-duration: 2s;
+}
+.heading-text h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.gender-links, a {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.gender-links a:hover {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.heading-text {
+    padding: 25px;
+}
+.row {
+    display: flex;
+}
+.card {
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+    margin: 30px 30px 20px 40px;
+    background-color:rgb(214, 212, 207);
+}
+.card h3 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.card:hover h3 {
+    background-color: black;
+    color: white;
+    transition: 200ms;
+}
+.icons {
+    margin-left: 73px;
+}
+.card span {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 18px;
+    padding: 8px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+.card:hover span {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 18px;
+    padding: 8px;
+    margin-left: 10px;
+    visibility: visible;
+}
+.box-1, .box-2, .box-3 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-left: 120px;
+}
+.box-1:hover, .box-2:hover, .box-3:hover {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-left: 120px;
+    box-shadow: 1px 1px 10px black, -1px -1px 10px black;
+    border-radius: 5px;
+}
+p {
+    width: fit-content;
+    font-size:smaller;
+    text-align: justify;
+    padding: 5px;
+    text-indent: 20px;
+    word-spacing: 5px;
+}
+.rev-subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+    color: black;
+    margin-top: 60px;
+}
+.rev-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial;
+    color: rgb(55, 52, 52);
+    font-weight: bold;
+    margin: 15px 10px 60px 10px;
+}
+.web-title {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    margin: 60px 10px 25px 10px;
+}
+.web-subtitle {
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(52, 47, 47);
+    margin-bottom: 50px;
+}
+.all-picture {
+    display: flex;
+    height: 200px;
+}
+.picture-1, .picture-2, .picture-3, .picture-4, .picture-5, .picture-6 {
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+    margin-left: 57px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 10px black, -1px -1px 10px black;
+    transition: 200ms;
+}
+.picture-1 {
+    background-image: url("../../public/images/picture-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.picture-2 {
+    background-image: url("../../public/images/picture-2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.picture-3 {
+    background-image: url("../../public/images/picture-3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.picture-4 {
+    background-image: url("../../public/images/picture-4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.picture-5 {
+    background-image: url("../../public/images/picture-5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.picture-6 {
+    background-image: url("../../public/images/picture-6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.picture-1:hover,.picture-2:hover,.picture-3:hover,.picture-4:hover,.picture-5:hover,.picture-6:hover {
+    width: 185px;
+    height: 185px;
+    border-radius: 5px;
+    margin-left: 57px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black, -2px -2px 10px black;
+    transition: 200ms;
+}
+.brand-partner {
+    display: flex;
+    margin-left: -20px;
+}
+.brand-1, .brand-2, .brand-3, .brand-4, .brand-5, .brand-6, .brand-7 {
+    margin: 40px 45px ;
+    background-color: beige;
+    padding: 2px 15px;
+}

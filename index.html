@@ -1,11 +1,359 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-in">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shopper Template</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/shopping.css">
 </head>
-<body>
-    <h1>Shoping site</h1>
+    <body style="background-color: rgb(163, 181, 181);">
+    <header>
+        <div class="brand-title">Shopper.</div>
+        <div>
+          <nav> 
+            <span>Home</span>
+            <span>Catalog</span>
+            <span>Shop</span>
+            <span>Pages</span>
+            <span>Blog</span>
+            <span>Docs</span>
+          </nav>
+        </div>
+        <div>
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart"></span>
+        </div>
+    </header>
+    <article>
+        <span class="bi bi-lightning-fill"></span>
+        <span>HAPPY HOLIDAY DEALS ON EVERYTHING</span>
+        <span class="bi bi-lightning-fill"></span>
+    </article>
+    <section>
+        <main>
+            <div class="women">
+                <div class="card-title">Women</div>
+                <div class="shop-button">
+                    <span>Shop Women <span class="bi bi-arrow-right"></span></span>
+                </div>
+            </div>
+            <div class="men">
+                <div class="card-title">Men</div>
+                <div class="shop-button">
+                    <span>Shop Men <span class="bi bi-arrow-right"></span></span>
+                </div>
+            </div>
+            <div class="kids">
+                <div class="card-title">Kids</div> 
+                <div class="shop-button">
+                    <span>Shop Kids <span class="bi bi-arrow-right"></span></span>
+                </div>
+            </div>
+        </main>
+        <div class="doc-abstract">
+            <div>
+                <span class="bi bi-truck"></span><span>FREE SHIPPING</span><br>
+                <span>From all orders over $100</span>
+            </div>
+            <div>
+                <span class="bi bi-arrow-counterclockwise"></span><span>FREE RETURNS</span><br>
+                <span>Return money within 30 days</span>
+            </div>
+            <div>
+                <span class="bi bi-bag"></span><span>SECURE SHOPPING</span><br>
+                <span>You're in safe hands</span>
+            </div>
+            <div>
+                <span class="bi bi-tag"></span><span>OVER 10,000 STYLES</span><br>
+                <span>We have everything you need</span>
+            </div>
+        
+        </div>
+        <div role="doc-introduction" class="doc-introduction">
+            <span class="doc-subtitle">NEW COLLECTION</span>
+            <span class="doc-title">Best Picks 2024 </span>
+            <span class="doc-text">Appear, dry there darkness they're seas, dry waters thing fly midst. Beast,<br> above fly brought Very green.</span>
+        </div>
+        
+        <div class="img-container">
+            <div class="img-1">
+                <h2>Bags Collection</h2>
+                <h3>Shop Now <span class="bi bi-arrow-right"></span></h3>
+            </div>
+            <div class="img-2">
+                <h2>Printed Men's Shirt's</h2>
+                <h3>Shop Now <span class="bi bi-arrow-right"></span></h3>
+            </div>
+            <div class="img-3">
+                <h2>Besic Women's Dresses</h2>
+                <h3>Shop Now <span class="bi bi-arrow-right"></span></h3>
+            </div>
+            <div class="img-4">
+                <h2>Sweatshirt's</h2>
+                <h3>Shop Now <span class="bi bi-arrow-right"></span></h3>   
+            </div>
+        </div>
+
+        <div class="heading-text">
+            <h1>Top Month Sellers</h1>
+        </div>
+        <div class="gender-links">
+            <a href="#Product">Men</a>
+            <a href="#Product">Women</a>
+            <a href="#Product">Kids</a>
+        </div>  
+    </section>
+    <section id="Product">
+        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Men's Shirt</h3>
+                </div>
+                <div class="card-body">
+                    <img src="public/images/men shirt-1.jpg" width="300px" height="320px">
+                </div>
+                <div class="icons">
+                    <span class="bi bi-eye-fill"></span>
+                    <span class="bi bi-cart-dash-fill"></span>  
+                    <span class="bi bi-heart-fill"></span>
+                </div>
+                <div class="card-footer">
+                    <h3>Price &#8377 2257.45 </h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Kids's Wear</h3>
+                </div>
+                <div class="card-body">
+                    <img src="public/images/kids-1.jpg" width="300px" height="320px">
+                </div>
+                <div class="icons">
+                    <span class="bi bi-eye-fill"></span>
+                    <span class="bi bi-cart-dash-fill"></span>  
+                    <span class="bi bi-heart-fill"></span>
+                </div>
+                <div class="card-footer">
+                    <h3>Price &#8377 1457.18 </h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Women's Dresses</h3>
+                </div>
+                <div class="card-body">
+                    <img src="public/images/women dress-1.jpg" width="300px" height="320px">
+                </div>
+                <div class="icons">
+                    <span class="bi bi-eye-fill"></span>
+                    <span class="bi bi-cart-dash-fill"></span>  
+                    <span class="bi bi-heart-fill"></span>
+                </div>
+                <div class="card-footer">
+                    <h3>Price &#8377 2157.87 </h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Watche's</h3>
+                </div>
+                <div class="card-body">
+                    <img src="public/images/watch-1.jpg" width="300px" height="320px">
+                </div>
+                <div class="icons">
+                    <span class="bi bi-eye-fill"></span>
+                    <span class="bi bi-cart-dash-fill"></span>  
+                    <span class="bi bi-heart-fill"></span>
+                </div>
+                <div class="card-footer">
+                    <h3>Price &#8377 1257.21 </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Girl's Top</h3>
+                </div>
+                <div class="card-body">
+                    <img src="public/images/girl top-1.jpg" width="300px" height="320px">
+                </div>
+                <div class="icons">
+                    <span class="bi bi-eye-fill"></span>
+                    <span class="bi bi-cart-dash-fill"></span>  
+                    <span class="bi bi-heart-fill"></span>
+                </div>
+                <div class="card-footer">
+                    <h3>Price &#8377 1999.75 </h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Shoes</h3>
+                </div>
+                <div class="card-body">
+                    <img src="public/images/shoes-1.jpg" width="300px" height="320px">
+                </div>
+                <div class="icons">
+                    <span class="bi bi-eye-fill"></span>
+                    <span class="bi bi-cart-dash-fill"></span>  
+                    <span class="bi bi-heart-fill"></span>
+                </div>
+                <div class="card-footer">
+                    <h3>Price &#8377 1599.55 </h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Kurta</h3>
+                </div>
+                <div class="card-body">
+                    <img src="public/images/kutra wear.jpg" width="300px" height="320px">
+                </div>
+                <div class="icons">
+                    <span class="bi bi-eye-fill"></span>
+                    <span class="bi bi-cart-dash-fill"></span>  
+                    <span class="bi bi-heart-fill"></span>
+                </div>
+                <div class="card-footer">
+                    <h3>Price &#8377 2999.26 </h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Men's Jacket & Jeans</h3>
+                </div>
+                <div class="card-body">
+                    <img src="public/images/jeans-1.jpg" width="300px" height="320px">
+                </div>
+                <div class="icons">
+                    <span class="bi bi-eye-fill"></span>
+                    <span class="bi bi-cart-dash-fill"></span>  
+                    <span class="bi bi-heart-fill"></span>
+                </div>
+                <div class="card-footer">
+                    <h3>Price &#8377 1870.14 </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="rev-subtitle">What buyers say</div>
+        <div class="rev-title">Latest buyers Reviews</div>
+        <div class="boxes" style="display: flex; align-items: center;">
+            <div class="box-1">
+                <div>
+                    <img src="public/images/card-1 img.jpg" width="100px" height="100px">
+                    <span>
+                        <div>Shoes</div>
+                        <h3>Low top Sneaker's.</h3>
+                    </span>
+                </div>
+                <p class="card-text">
+                    Casual Shoes for Men - Choose from our best men's flat & casual shoes online on Bacca bucci at the best rates. Casual Shoes For Men | Free Shipping | COD. Find adidas Men's Shoes at best price. All styles, colours & latest collections of Men's Shoes available at official adidas online store.
+                </p>
+            </div>
+            <div class="box-2">
+                <div>
+                    <img src="public/images/card-2 img.jpg" width="100px" height="100px">
+                    <span>
+                        <div>Dresse's</div>
+                        <h3>Low top Sneaker's.</h3>
+                    </span>
+                </div>
+                <p class="card-text">
+                    Short Kurtis for women are often referred to as kurta tops or short kurtis. They typically end at the waist or hip and are popular for casual wear. Kurtis for Women - Explore our short kurtis for women at the best prices. Shop stylish kurtis for women online at Max Fashion. Easy Exchange and Returns.
+                </p>
+            </div>
+            <div class="box-3">
+                <div>
+                    <img src="public/images/card-3 img.jpg" width="100px" height="100px">
+                    <span>
+                        <div>T-Shirt's</div>
+                        <h3>Low top Sneaker's.</h3>
+                    </span>
+                </div>
+                <p class="card-text">
+                    Trendy and comfortable t-shirts for men at extremely affordable prices. From Basic, Oversized to Polo and Graphic Printed tees,Shop for t-shirts for men online. Select from the trendy collection of men's t-shirts available in unique designs, colors & prints only at The Souled Store.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="web-title">@shopper</div>
+            <div class="web-subtitle">Appear, dry there darkness they're seas, dry waters.</div>
+        </div>
+        <div class="all-picture">
+            <div class="picture-1"></div>
+            <div class="picture-2"></div> 
+            <div class="picture-3"></div>
+            <div class="picture-4"></div>
+            <div class="picture-5"></div>
+            <div class="picture-6"></div>
+        </div>
+        <div class="brand-partner">
+            <div class="brand-1"><img src="public/images/brand logo-1.svg" width="100px" height="30px"></div>
+            <div class="brand-2"><img src="public/images/brand logo-2.svg" width="100px" height="30px"></div>
+            <div class="brand-3"><img src="public/images/brand logo-3.svg" width="100px" height="30px"></div>
+            <div class="brand-4"><img src="public/images/brand logo-4.svg" width="100px" height="30px"></div>
+            <div class="brand-5"><img src="public/images/brand logo-5.svg" width="100px" height="30px"></div>
+            <div class="brand-6"><img src="public/images/brand logo-6.svg" width="100px" height="30px"></div>
+            <div class="brand-7"><img src="public/images/brand logo-7.svg" width="100px" height="30px"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-title">Want style Ideas and Treats?</div>
+        <div class="subscribe-container">
+            <input type="text" class="email" placeholder=" Enter Email*">
+            <button class="subscribe">Subscribe</button>
+        </div>
+        <div class="services-container">
+            <div>
+                <span class="footer-brand-title"> Shopper</span>
+                <aside>
+                    <span class="bi bi-facebook"></span>
+                    <span class="bi bi-youtube"></span>
+                    <span class="bi bi-twitter"></span>
+                    <span class="bi bi-instagram"></span>
+                    <span class="bi bi-linkedin"></span>
+                </aside>
+            </div>
+            <div>
+                <span class="service-title">SUPPORT</span>
+                <span>Contack Us</span>
+                <span>FAQs</span>
+                <span>Size Guide</span>
+                <span>Shipping & Returns</span>
+            </div>
+            <div>
+                <span class="service-title">SHOP</span>
+                <span>Men's Shopping</span>
+                <span>Women's Shopping</span>
+                <span>Kids' Shopping</span>
+                <span>Discounts</span>
+            </div>
+            <div>
+                <span class="service-title">COMPANY</span>
+                <span>Our Story</span>
+                <span>Careers</span>  
+                <span>Terms & Conditions</span> 
+                <span>Privacy & Cookie policy</span>
+            </div>
+            <div>
+             <address>
+                <span class="service-title">CONTACT</span>
+                   <span>1-202-555-0105</span>
+                   <span>1-202-555-0105</span>
+                   <span>help@shopper.com</span>
+            </address>
+            </div>      
+        </div>
+    </footer>
 </body>
 </html>
+    
